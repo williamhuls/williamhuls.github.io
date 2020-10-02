@@ -10,18 +10,18 @@ nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b2b2b2;
+    background-color:#537082;
 }
 nav li{    float: left;  } 
 nav li a {
     display: block;
-    color: #000000;
+    color: #ffffff;
     text-align: center;
     padding: 1em;
     text-decoration: none;
 }
 nav li a:hover{
-    background-color: #8e8e8e;
+    background-color: #313D4D;
 }
 
 
@@ -29,12 +29,16 @@ nav li a:hover{
 
 
 body{
-    
+    padding: 1em;
+    border-left:  black;
+    border-right:  black;
 }
 h2{
     font-size: 2em;
     text-align: center;
 }
 p{
-    
+    margin: 1em;
+    line-height: 1.75;
+    white-space: pre-wrap;
 }
